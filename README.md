@@ -26,3 +26,5 @@ Before the first deployment:
 3. Commit and push this workflow to GitHub. Pull requests then get Preview deployments, and pushes to `main` deploy to Production.
 
 The `.vercel` directory is ignored; do not commit its local project configuration.
+
+The deployment job checks that all three are repository or organization **Actions secrets** (not Actions variables or Vercel environment secrets) before invoking the Vercel CLI.
