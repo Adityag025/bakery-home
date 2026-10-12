@@ -1,0 +1,7 @@
+node_modules/
+.next*/
+out/
+
+*.tsbuildinfo
+viewport-*.png
+public/layout-probe.html
